@@ -7,11 +7,9 @@ This project uses a mock REST API and follows an organized folder architecture f
 
 ## 📸 Screenshots
 
-### **Home Screen**
-![Home Screen](screenshots/screen1.png)
-
-### **Create / Edit Product Screen**
-![Create Product](screenshots/screen2.png)
+| Home Screen | Create / Edit Product Screen |
+|-------------|------------------------------|
+| <img src="https://github.com/user-attachments/assets/ae8e31d9-cf58-4a31-9fe6-de318a1fe8a1" width="300" /> | <img src="https://github.com/user-attachments/assets/80e8e043-7852-4411-bd65-0f4210b95121" width="300" /> |
 
 ---
 
@@ -181,12 +179,25 @@ class Urls {
 ## 6️⃣ `api_collection/CRUD.postman_collection.json`
 
 ### **Overview**
-A Postman API collection for testing CRUD endpoints.
+This file contains a **Postman API Collection** used for testing all CRUD endpoints in the app.  
+It includes pre-configured requests for:
 
-### **Screen Shot**
-<img width="1920" height="961" alt="image" src="https://github.com/user-attachments/assets/4ccd8ad2-999d-410d-934a-c2f2a81f735f" />
+- ➕ **Create Product (POST)**
+- 📥 **Read Products (GET)**
+- ✏️ **Update Product (PUT)**
+- 🗑️ **Delete Product (DELETE)**
+
+Using this collection allows you to quickly verify API behavior, debug responses, and simulate requests before integrating them in the Flutter app.
+
+### **Postman Preview**
+<img src="https://github.com/user-attachments/assets/4ccd8ad2-999d-410d-934a-c2f2a81f735f" width="700" />
+
 
 ## 🚀 Installation & Setup Guide
+
+Follow the steps below to get the project up and running on your local machine.
+
+---
 
 ### 1️⃣ Clone the Repository
 **Clone The Repo**
